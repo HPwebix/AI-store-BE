@@ -29,7 +29,7 @@ app.use(cookieParser());
 app.use("/api/publisher",require('./Routes/PublisherRoutes'));
 
 app.get('/', (req, res) =>{
-    res.send("Hey!! server this is commit on main ");
+    res.send("hello server");
 });
 
 app.listen(PORT, ()=>{
